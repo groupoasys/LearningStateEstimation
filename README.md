@@ -10,20 +10,25 @@ The following files are included in this repository:
 
 ## References
 
-[1] {{ Reference_1_Details }}
+[1] J.G. De la Varga, S. Pineda, J.M. Morales, A. Porras,  
+Learning-based state estimation in distribution systems with limited real-time measurements,  
+*Electric Power Systems Research*, Volume 241, 2025, 111268,  
+ISSN 0378-7796, [https://doi.org/10.1016/j.epsr.2024.111268](https://doi.org/10.1016/j.epsr.2024.111268)
 
 ## Developed by
 
-* {{ Developer_1_Name }} ([{{ Developer_1_Email }}](mailto:{{ Developer_1_Email }})) - [GitHub: {{ Developer_1_GitHub }}](https://github.com/{{ Developer_1_GitHub }})  
-* {{ Developer_2_Name }} ([{{ Developer_2_Email }}](mailto:{{ Developer_2_Email }})) - [GitHub: {{ Developer_2_GitHub }}](https://github.com/{{ Developer_2_GitHub }})  
-* {{ Developer_3_Name }} ([{{ Developer_3_Email }}](mailto:{{ Developer_3_Email }})) - [GitHub: {{ Developer_3_GitHub }}](https://github.com/{{ Developer_3_GitHub }})
+* J.G. De la Varga ([josegv@uma.es](mailto:josegv@uma.es)) - [GitHub: mrJGV](https://github.com/mrJGV)  
+* S. Pineda ([spineda@uma.es](mailto:spineda@uma.es)) - [GitHub: salvapineda](https://github.com/salvapineda)  
+* J.M. Morales ([juan.morales@uma.es](mailto:juan.morales@uma.es)) - [GitHub: Juanmi82mg](https://github.com/Juanmi82mg)  
+* A. Porras ([alvaroporras19@gmail.com](mailto:alvaroporras19@gmail.com)) - [GitHub: AlvaroPorras19](https://github.com/AlvaroPorras19)
 
 ## Funding
 
-This work was supported by the following projects:  
-* {{ Funding_Project_1_Details }}  
-* {{ Funding_Project_2_Details }}  
-* {{ Funding_Project_3_Details }}
+This work was supported by:  
+* The Spanish Ministry of Science and Innovation, Spain (AEI/10.13039/501100011033) through projects:
+  * PID2020-115460GB-I00  
+  * PID2023-148291NB-I00  
+* The Spanish Ministry of Science and Innovation training program, Spain for PhDs with fellowship number PRE2021-098958.
 
 ## How to cite the repo and the paper?
 
@@ -31,22 +36,23 @@ If you want to cite the related paper or this repository, please use the followi
 
 * Article:
 ```
-@article{{ {{ Article_Citation_Key }},
-title = {{ {{ Article_Title }} }},
-journal = {{ {{ Journal_Name }} }},
-volume = {{ {{ Volume }} }},
-pages = {{ {{ Pages }} }},
-year = {{ {{ Year }} }},
-author = {{ {{ Authors }} }}
+@article{DeLaVarga2025,
+title = {Learning-based state estimation in distribution systems with limited real-time measurements},
+journal = {Electric Power Systems Research},
+volume = {241},
+pages = {111268},
+year = {2025},
+author = {J.G. De la Varga and S. Pineda and J.M. Morales and A. Porras},
+doi = {10.1016/j.epsr.2024.111268}
 }
 ```
 * Repository:
 ```
-@misc{{ {{ Repository_Citation_Key }},
-author={{ {{ Repository_Author }} }},
-year={{ {{ Repository_Year }} }},
-title = {{ {{ Repository_Title }} }},
-howpublished = {{\url{{ {{ Repository_URL }} }} }}
+@misc{Repository_Citation_Key,
+author={Repository_Author},
+year={Repository_Year},
+title = {Repository_Title},
+howpublished = {\url{Repository_URL}}
 }
 ```
 
