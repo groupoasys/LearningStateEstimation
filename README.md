@@ -1,19 +1,18 @@
-# {{ Repository_Name }}
+# LearningStateEstimation
 
-The aim of this repository is to provide details of the data sets and code used in the related research titled *{{ Research_Title }}*.
+This repository contains the data sets and code used in the research titled [*Learning-based state estimation in distribution systems with limited real-time measurements*](https://doi.org/10.1016/j.epsr.2024.111268).
 
 ## Data Description
 
 The following files are included in this repository:
-* `{{ File_1_Name }}`: {{ File_1_Description }}
-* `{{ File_2_Name }}`: {{ File_2_Description }}
+* `case33bw/x_true_high_variability.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under high variability conditions.
+* `case33bw/x_true_medium_variability.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under medium variability conditions.
+* `case33bw/x_true_low_variability.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under low variability conditions.
+* `case136ma/x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 136-bus system.
 
 ## References
 
-[1] J.G. De la Varga, S. Pineda, J.M. Morales, A. Porras,  
-Learning-based state estimation in distribution systems with limited real-time measurements,  
-*Electric Power Systems Research*, Volume 241, 2025, 111268,  
-ISSN 0378-7796, [https://doi.org/10.1016/j.epsr.2024.111268](https://doi.org/10.1016/j.epsr.2024.111268)
+[1] J.G. De la Varga, S. Pineda, J.M. Morales, A. Porras, Learning-based state estimation in distribution systems with limited real-time measurements, *Electric Power Systems Research*, Volume 241, 2025, 111268, ISSN 0378-7796, [https://doi.org/10.1016/j.epsr.2024.111268](https://doi.org/10.1016/j.epsr.2024.111268)
 
 ## Developed by
 
@@ -48,11 +47,11 @@ doi = {10.1016/j.epsr.2024.111268}
 ```
 * Repository:
 ```
-@misc{Repository_Citation_Key,
-author={Repository_Author},
-year={Repository_Year},
-title = {Repository_Title},
-howpublished = {\url{Repository_URL}}
+@misc{LearningStateEstimation2025,
+author={J.G. De la Varga and S. Pineda and J.M. Morales and A. Porras},
+year={2025},
+title = {Learning-based state estimation in distribution systems with limited real-time measurements},
+howpublished = {\url{https://github.com/groupoasys/LearningStateEstimation}}
 }
 ```
 
