@@ -5,9 +5,11 @@ This repository contains the data sets and code used in the research titled [*Le
 ## Data Description
 
 The following files are included in this repository:
+* `case33bw/case33bw.m`: The Matpower file associated with the 33-bus system.
 * `case33bw/x_true_high_variability.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under high variability conditions.
 * `case33bw/x_true_medium_variability.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under medium variability conditions.
 * `case33bw/x_true_low_variability.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 33-bus system under low variability conditions.
+* `case136ma/case136ma.m`: The Matpower file associated with the 136-bus system.
 * `case136ma/x_true.csv`: Contains 10,000 instances of voltage magnitudes and angles for the 136-bus system.
 
 ## References
