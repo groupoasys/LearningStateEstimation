@@ -1,6 +1,6 @@
 # LearningStateEstimation
 
-This repository contains the data sets and code used in the research titled [*Learning-based state estimation in distribution systems with limited real-time measurements*](https://doi.org/10.1016/j.epsr.2024.111268).
+This repository contains the data sets used in the research titled [*Learning-based state estimation in distribution systems with limited real-time measurements*](https://doi.org/10.1016/j.epsr.2024.111268).
 
 ## Data Description
 
